@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1hg
+ls -lgo | awk '{if(NR>1)print}'
